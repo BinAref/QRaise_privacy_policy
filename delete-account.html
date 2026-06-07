@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QRaise — Delete Account &amp; Data</title>
+  <style>
+    :root{
+      --bg:#0f1220; --card:#171a2b; --text:#e7e9f3; --muted:#a7adc6;
+      --primary:#6c8cff; --border:#272b40; --accent:#8a7dff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,#0c0f1c,#10131f);color:var(--text);line-height:1.7;font-size:16px}
+    .wrap{max-width:780px;margin:0 auto;padding:32px 20px 80px}
+    header{text-align:center;padding:40px 20px 28px;border-bottom:1px solid var(--border);margin-bottom:8px}
+    .logo{width:76px;height:76px;border-radius:18px;margin:0 auto 14px;display:block;object-fit:cover;
+      box-shadow:0 10px 28px rgba(108,140,255,.28)}
+    h1{font-size:28px;margin:0 0 6px}
+    .sub{color:var(--muted);font-size:15px;margin:0}
+    .updated{display:inline-block;margin-top:14px;padding:5px 12px;border:1px solid var(--border);
+      border-radius:20px;color:var(--muted);font-size:13px;background:var(--card)}
+    section{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 24px;margin:16px 0}
+    section h2{font-size:20px;margin:0 0 12px;color:#fff;display:flex;align-items:center;gap:10px}
+    section h2 .n{flex:0 0 auto;width:28px;height:28px;border-radius:8px;font-size:14px;
+      background:rgba(108,140,255,.15);color:var(--primary);display:flex;align-items:center;justify-content:center;font-weight:700}
+    p{margin:8px 0}
+    ul,ol{margin:8px 0;padding-left:22px}
+    li{margin:6px 0}
+    li b,b{color:#fff}
+    a{color:var(--primary)}
+    .muted{color:var(--muted)}
+    .mail{display:inline-block;margin:6px 0;padding:10px 16px;border-radius:10px;
+      background:rgba(108,140,255,.12);border:1px solid rgba(108,140,255,.3);color:#fff;text-decoration:none;font-weight:600}
+    table{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}
+    th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top}
+    th{background:rgba(255,255,255,.03);color:var(--muted);font-weight:600}
+    footer{text-align:center;color:var(--muted);font-size:13px;margin-top:40px}
+    .back{display:inline-block;margin-top:10px;color:var(--primary);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img class="logo" src="icon.png" alt="QRaise app icon" />
+      <h1>Delete Your Account &amp; Data</h1>
+      <p class="sub">QRaise — by BinAref</p>
+      <span class="updated">Last updated: June 7, 2026</span>
+    </header>
+
+    <section>
+      <h2><span class="n">1</span> How to request deletion</h2>
+      <p>You can permanently delete your QRaise account and its associated data using either method
+      below. Creating an account is optional — the app's core features (creating and scanning QR
+      codes) work without an account.</p>
+
+      <p><b>Option A — In the app</b></p>
+      <ol>
+        <li>Open <b>QRaise</b> and go to the <b>QRaise Pro</b> section.</li>
+        <li>Sign in, then open the account <b>Settings</b>.</li>
+        <li>Choose <b>Delete account</b> and confirm.</li>
+      </ol>
+
+      <p><b>Option B — By email</b></p>
+      <p>Send a deletion request from the email linked to your account (or include your account
+      code) to:</p>
+      <a class="mail" href="mailto:qraise.support@gmail.com?subject=Delete%20my%20QRaise%20account">qraise.support@gmail.com</a>
+      <p class="muted">Please use the subject "Delete my QRaise account". We will verify ownership
+      and complete the deletion within 30 days.</p>
+    </section>
+
+    <section>
+      <h2><span class="n">2</span> What data is deleted</h2>
+      <p>When your account is deleted, we permanently remove the following from our servers:</p>
+      <table>
+        <tr><th>Deleted</th><th>Details</th></tr>
+        <tr><td><b>Account &amp; profile</b></td><td>Account, organization name, members, recovery email, and hashed password.</td></tr>
+        <tr><td><b>QR codes</b></td><td>All tracked QR codes you created in the account.</td></tr>
+        <tr><td><b>Scan records</b></td><td>Scan logs associated with your account's codes.</td></tr>
+        <tr><td><b>Wallet</b></td><td>Credit balance and wallet transactions.</td></tr>
+        <tr><td><b>Notifications</b></td><td>In-account notifications and requests.</td></tr>
+      </table>
+      <p class="muted">Data stored only on your device (such as local scan history) is removed when
+      you clear it or uninstall the app.</p>
+    </section>
+
+    <section>
+      <h2><span class="n">3</span> What may be retained</h2>
+      <p>We may retain a limited set of records where required by law or for legitimate purposes,
+      for example purchase/transaction records needed for accounting and fraud prevention. Such
+      records are kept only for the period required and are not used to identify you for other
+      purposes.</p>
+    </section>
+
+    <section>
+      <h2><span class="n">4</span> Contact</h2>
+      <p><b>Email:</b> <a href="mailto:qraise.support@gmail.com">qraise.support@gmail.com</a><br/>
+         <b>App:</b> QRaise &nbsp;•&nbsp; <b>Developer:</b> BinAref</p>
+      <a class="back" href="index.html">← Privacy Policy</a>
+    </section>
+
+    <footer>© 2026 BinAref — QRaise. All rights reserved.</footer>
+  </div>
+</body>
+</html>
